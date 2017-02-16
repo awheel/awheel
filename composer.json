@@ -21,6 +21,11 @@
             "App\\": "app/"
         }
     },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4-dev"
+        }
+    },
     "repositories": [
         {
             "type": "vcs",
