@@ -14,14 +14,5 @@ return [
     'log_file' => '/tmp/light.log',
 
     // 日志级别
-    'log_level' => 'DEBUG',
-
-    // 启用组件
-    'component' => [
-        'light\Support\LogComponent',
-        'light\Soa\SoaComponent',
-        'light\Support\RedisComponent',
-        'light\View\ViewComponent',
-        'light\Cache\CacheComponent',
-    ]
+    'log_level' => 'DEBUG'
 ];

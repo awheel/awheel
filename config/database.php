@@ -1,43 +1,58 @@
 <?php
 
 return [
-    // 驱动
-    'driver' => 'mysql',
-
-    // PDO 数据获取方式
-    'fetch' => PDO::FETCH_ASSOC,
-
-    // 数据库配置
-    'config' => [
-        'light' => [
-            'master' => [
+    // 数据库1
+    'database1' => [
+        'master' => [
+            [
+                'database_type' => 'mysql',
                 'server' => 'localhost',
-                'database' => 'light',
+                'prefix' => 'lt_',
                 'port' => 3306,
                 'username' => 'root',
                 'password' => '123456',
                 'charset' => 'utf8',
                 'collation' => 'utf8_unicode_ci',
-            ],
-            'slave' => [
-                [
-                    'server' => 'localhost',
-                    'database' => 'light',
-                    'port' => 3306,
-                    'username' => 'root',
-                    'password' => '123456',
-                    'charset' => 'utf8',
-                    'collation' => 'utf8_unicode_ci',
-                ],
-                [
-                    'server' => 'localhost',
-                    'database' => 'light',
-                    'port' => 3306,
-                    'username' => 'root',
-                    'password' => '123456',
-                    'charset' => 'utf8',
-                    'collation' => 'utf8_unicode_ci',
-                ]
+            ]
+        ],
+        'slave' => [
+            [
+                'database_type' => 'mysql',
+                'server' => 'localhost',
+                'prefix' => 'lt_',
+                'port' => 3306,
+                'username' => 'root',
+                'password' => '123456',
+                'charset' => 'utf8',
+                'collation' => 'utf8_unicode_ci',
+            ]
+        ]
+    ],
+
+    // 数据库2
+    'database2' => [
+        'master' => [
+            [
+                'database_type' => 'mysql',
+                'server' => 'localhost',
+                'prefix' => 'lt_',
+                'port' => 3306,
+                'username' => 'root',
+                'password' => '123456',
+                'charset' => 'utf8',
+                'collation' => 'utf8_unicode_ci',
+            ]
+        ],
+        'slave' => [
+            [
+                'database_type' => 'mysql',
+                'server' => 'localhost',
+                'prefix' => 'lt_',
+                'port' => 3306,
+                'username' => 'root',
+                'password' => '123456',
+                'charset' => 'utf8',
+                'collation' => 'utf8_unicode_ci',
             ]
         ]
     ]
