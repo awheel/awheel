@@ -13,7 +13,8 @@
     "require": {
         "light/light-framework": "dev-master",
         "light/medoo-model": "^1.0",
-        "light/cache-component": "^1.0"
+        "light/cache-component": "^1.0",
+        "light/view-smarty": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -36,6 +37,10 @@
         {
             "type": "vcs",
             "url": "git@gitlab.hupu.com:light/cache-component.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@gitlab.hupu.com:light/view-smarty.git"
         }
     ]
 }

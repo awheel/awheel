@@ -14,7 +14,7 @@ class IndexController extends Controller
 {
     public function home()
     {
-        return 'Light';
+        return app('view.smarty')->render('home.tpl', ['title' => time()]);
     }
 
 }
