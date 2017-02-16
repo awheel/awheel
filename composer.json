@@ -11,7 +11,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "light/light-framework": "^1.3"
+        "light/light-framework": "dev-master",
+        "light/medoo-model": "^1.0",
+        "light/cache-component": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -25,7 +27,15 @@
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:hupu/net-client.git"
+            "url": "git@gitlab.hupu.com:light/medoo-model.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@gitlab.hupu.com:light/array-factory.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@gitlab.hupu.com:light/cache-component.git"
         }
     ]
 }

@@ -18,10 +18,6 @@ return [
 
     // 启用组件
     'component' => [
-        'light\Support\LogComponent',
-        'light\Soa\SoaComponent',
-        'light\Support\RedisComponent',
-        'light\View\ViewComponent',
-        'light\Cache\CacheComponent',
+        'light\CacheComponent\CacheComponent'
     ]
 ];

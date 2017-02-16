@@ -18,14 +18,9 @@ return [
             'db' => 0,
             'password' => 'null!'
         ],
-        'memcache' => [
+        'memcached' => [
             'host' => '127.0.0.1',
             'port' => 11211
-        ],
-        'mysql' =>[
-            'host' => '127.0.0.1',
-            'port' => 3306,
-            'connect' => 'database.default'
         ]
     ]
 ];
