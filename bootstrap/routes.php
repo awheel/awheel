@@ -5,7 +5,7 @@ use light\Routing\Router;
 $router = new Router();
 
 $router->get('/', function () use ($router) {
-    return 'Light';
+    return app()->configGet('app.name');
 });
 
 $router->get('/home', 'IndexController@home');
