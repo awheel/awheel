@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Model\User;
 use light\Routing\Controller;
 
 /**
@@ -12,9 +11,10 @@ use light\Routing\Controller;
  */
 class IndexController extends Controller
 {
+
     public function home()
     {
-        return app('view.smarty')->render('home.tpl', ['title' => time()]);
+        return app('view.blade')->render('home', ['title' => time()]);
     }
 
 }

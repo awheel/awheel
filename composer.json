@@ -14,11 +14,12 @@
         "light/light-framework": "dev-master",
         "light/medoo-model": "^1.0",
         "light/cache-component": "^1.0",
-        "light/view-smarty": "^1.0"
+        "light/view-blade": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "Library\\": "library/"
         }
     },
     "extra": {
@@ -45,7 +46,12 @@
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:light/view-smarty.git"
+            "url": "git@gitlab.hupu.com:/light/view-blade.git"
         }
-    ]
+    ],
+    "config": {
+        "prefer-source": false,
+        "prefer-dist": true,
+        "secure-http": false
+    }
 }

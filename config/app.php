@@ -18,7 +18,7 @@ return [
 
     // 启用组件
     'component' => [
-        'light\ViewSmarty\ViewComponent',
+        'light\ViewBlade\ViewComponent',
         'light\CacheComponent\CacheComponent'
     ]
 ];
