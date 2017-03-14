@@ -11,7 +11,7 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "light/light-framework": "dev-master",
+        "light/light-framework": "1.4.*",
         "light/medoo-model": "^1.0",
         "light/cache-component": "^1.0",
         "light/view-blade": "dev-master"
