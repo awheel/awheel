@@ -6,6 +6,7 @@ return [
         'master' => [
             [
                 'database_type' => 'mysql',
+                'database_name' => 'database1',
                 'server' => 'localhost',
                 'prefix' => 'lt_',
                 'port' => 3306,
@@ -18,6 +19,7 @@ return [
         'slave' => [
             [
                 'database_type' => 'mysql',
+                'database_name' => 'database1',
                 'server' => 'localhost',
                 'prefix' => 'lt_',
                 'port' => 3306,
@@ -34,6 +36,7 @@ return [
         'master' => [
             [
                 'database_type' => 'mysql',
+                'database_name' => 'database2',
                 'server' => 'localhost',
                 'prefix' => 'lt_',
                 'port' => 3306,
@@ -46,6 +49,7 @@ return [
         'slave' => [
             [
                 'database_type' => 'mysql',
+                'database_name' => 'database2',
                 'server' => 'localhost',
                 'prefix' => 'lt_',
                 'port' => 3306,
