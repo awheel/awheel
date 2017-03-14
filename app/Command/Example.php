@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Command;
+namespace app\Command;
 
 use light\Console\Command;
 
 /**
  * Example Command
  *
- * @package App\Command
+ * @package app\Command
  */
 class Example extends Command
 {

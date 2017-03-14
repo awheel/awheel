@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Controller;
+namespace app\Controller;
 
 use light\Routing\Controller;
 
 /**
  * Home Controller
  *
- * @package App\Controller
+ * @package app\Controller
  */
 class IndexController extends Controller
 {

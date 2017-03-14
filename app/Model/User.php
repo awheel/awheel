@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Model;
+namespace app\Model;
 
 /**
  * User
  *
- * @package App\Model
+ * @package app\Model
  */
 class User extends Light
 {

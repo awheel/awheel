@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Command;
+namespace app\Command;
 
 use light\Console\Command;
 
 /**
  * 初始化程序运行环境
  *
- * @package App\Command
+ * @package app\Command
  */
 class InitEnvironment extends Command
 {

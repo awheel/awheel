@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Model;
+namespace app\Model;
 
 use light\MedooModel\MedooModel;
 
 /**
  * Basic
  *
- * @package App\Model
+ * @package app\Model
  */
 class Light extends MedooModel
 {

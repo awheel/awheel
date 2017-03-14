@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Middleware;
+namespace app\Middleware;
 
 use Closure;
 use light\Http\Request;
@@ -8,7 +8,7 @@ use light\Http\Request;
 /**
  * 示例中间件
  *
- * @package App\Middleware
+ * @package app\Middleware
  */
 class Example
 {

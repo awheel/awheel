@@ -2,7 +2,7 @@
 
 // 注册命令行
 return [
-    'App\Command\Example',
-    'App\Command\InitEnvironment',
+    'app\Command\Example',
+    'app\Command\InitEnvironment',
     //App\Command\InitEnvironment::class
 ];
