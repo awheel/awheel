@@ -2,5 +2,6 @@ composer.phar
 composer.lock
 /vendor
 app/View/Cache
-app/View/Config
-app/View/Compile
+app/View/Config/*
+app/View/Compile/*
+.idea
