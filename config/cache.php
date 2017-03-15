@@ -16,11 +16,12 @@ return [
             'host' => '127.0.0.1',
             'port' => 6379,
             'db' => 0,
-            'password' => 'null!'
+            'password' => null
         ],
         'memcached' => [
             'host' => '127.0.0.1',
             'port' => 11211
-        ]
+        ],
+        'yac' => []
     ]
 ];
