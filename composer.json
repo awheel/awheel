@@ -42,6 +42,10 @@
         {
             "type": "vcs",
             "url": "git@gitlab.hupu.com:/light/view-blade.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@gitlab.hupu.com:/light/view-smarty.git"
         }
     ],
     "config": {

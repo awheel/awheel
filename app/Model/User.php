@@ -2,17 +2,27 @@
 
 namespace app\Model;
 
+use light\MedooModel\MedooModel;
+
 /**
- * User
+ * User model
  *
  * @package app\Model
  */
-class User extends Light
+class User extends MedooModel
 {
     public $database = 'light';
     public $table = 'user';
     public $primary = 'id';
     public $timestamps = true;
+
+    /**
+     * constructor.
+     */
+    public function __construct()
+    {
+        parent::__construct(app()->configGet('database'));
+    }
 
     /**
      * get user info
