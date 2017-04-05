@@ -10,7 +10,7 @@
 require  __ROOT__.'/vendor/autoload.php';
 
 // 初始化应用
-$app = new light\App(__ROOT__, __ENV__);
+$app = new awheel\App(__ROOT__, __ENV__);
 
 // 注册 Kernel: Console|Http
 $app->registerKernel();

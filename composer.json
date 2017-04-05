@@ -1,6 +1,6 @@
 {
-    "name": "light/light",
-    "description": "Light",
+    "name": "awheel/awheel",
+    "description": "Awheel framework",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -11,10 +11,11 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "light/light-framework": "1.4.*",
+        "awheel/framework": "dev-master",
         "light/medoo-model": "^1.0",
         "light/cache-component": "^1.0",
-        "light/view-blade": "dev-master"
+        "light/view-blade": "dev-master",
+        "awheel/support": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -25,27 +26,23 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:light/light-framework.git"
+            "url": "git@git.fengqi.tk:light/medoo-model.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:light/medoo-model.git"
+            "url": "git@git.fengqi.tk:light/array-factory.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:light/array-factory.git"
+            "url": "git@git.fengqi.tk:light/cache-component.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:light/cache-component.git"
+            "url": "git@git.fengqi.tk:/light/view-blade.git"
         },
         {
             "type": "vcs",
-            "url": "git@gitlab.hupu.com:/light/view-blade.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@gitlab.hupu.com:/light/view-smarty.git"
+            "url": "git@git.fengqi.tk:/light/view-smarty.git"
         }
     ],
     "config": {

@@ -2,7 +2,7 @@
 
 namespace app\Controller;
 
-use light\Routing\Controller;
+use awheel\Routing\Controller;
 
 /**
  * Home Controller

@@ -3,7 +3,7 @@
 namespace app\Middleware;
 
 use Closure;
-use light\Http\Request;
+use awheel\Http\Request;
 
 /**
  * 示例中间件

@@ -2,7 +2,7 @@
 
 namespace app\Command;
 
-use light\Console\Command;
+use awheel\Console\Command;
 
 /**
  * Example Command

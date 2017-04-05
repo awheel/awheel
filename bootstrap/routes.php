@@ -1,6 +1,6 @@
 <?php
 
-use light\Routing\Router;
+use awheel\Routing\Router;
 
 $router = new Router();
 
