@@ -14,7 +14,7 @@
         "awheel/framework": "dev-master",
         "awheel/medoo-model": "dev-master",
         "awheel/cache-component": "dev-master",
-        "awheel/view-blade": "dev-master",
+        "awheel/view-blade": "^1.5",
         "awheel/support": "dev-master",
         "awheel/view-single": "^0.1.0"
     },

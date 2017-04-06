@@ -2,7 +2,7 @@
 
 return [
     'blade' => [
-        'path' => base_path('app/View'),
+        'path' => base_path('app/View/blade'),
         'cache' => '/tmp/awheel'
     ],
     'single' => [

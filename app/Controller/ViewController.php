@@ -28,6 +28,6 @@ class ViewController extends Controller
      */
     public function blade()
     {
-        return app('view.blade')->render('home');
+        return app('view.blade')->render('home', ['time' => date('Y-m-d H:i:s')]);
     }
 }
