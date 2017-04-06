@@ -2,7 +2,7 @@
 
 return [
     // 项目名称
-    'name' => 'light',
+    'name' => 'awheel',
 
     // 项目地址
     'base_url' => 'http://localhost',
@@ -11,14 +11,14 @@ return [
     'debug' => false,
 
     // 系统日志
-    'log_file' => '/tmp/light.log',
+    'log_file' => '/tmp/awheel.log',
 
     // 日志级别
     'log_level' => 'ERROR',
 
     // 启用组件
     'component' => [
-        'light\ViewBlade\ViewComponent',
-        'light\CacheComponent\CacheComponent'
+        'awheel\ViewBlade\ViewComponent',
+        'awheel\CacheComponent\CacheComponent'
     ]
 ];

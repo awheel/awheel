@@ -4,4 +4,3 @@ composer.lock
 app/View/Cache
 app/View/Config/*
 app/View/Compile/*
-.idea

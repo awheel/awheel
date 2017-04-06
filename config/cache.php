@@ -8,7 +8,7 @@ return [
     'timeout' => 120,
 
     // 前缀
-    'prefix' => 'light_prod_',
+    'prefix' => 'awheel_prod_',
 
     // 配置
     'config' => [

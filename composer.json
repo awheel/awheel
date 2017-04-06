@@ -12,9 +12,9 @@
     "minimum-stability": "stable",
     "require": {
         "awheel/framework": "dev-master",
-        "light/medoo-model": "^1.0",
-        "light/cache-component": "^1.0",
-        "light/view-blade": "dev-master",
+        "awheel/medoo-model": "dev-master",
+        "awheel/cache-component": "dev-master",
+        "awheel/view-blade": "dev-master",
         "awheel/support": "dev-master"
     },
     "autoload": {
@@ -23,28 +23,6 @@
             "library\\": "library/"
         }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@git.fengqi.tk:light/medoo-model.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@git.fengqi.tk:light/array-factory.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@git.fengqi.tk:light/cache-component.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@git.fengqi.tk:/light/view-blade.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@git.fengqi.tk:/light/view-smarty.git"
-        }
-    ],
     "config": {
         "prefer-source": false,
         "prefer-dist": true,

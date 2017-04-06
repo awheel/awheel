@@ -2,7 +2,7 @@
 
 namespace app\Model;
 
-use light\MedooModel\MedooModel;
+use awheel\MedooModel\MedooModel;
 
 /**
  * User model
@@ -11,7 +11,7 @@ use light\MedooModel\MedooModel;
  */
 class User extends MedooModel
 {
-    public $database = 'light';
+    public $database = 'awheel';
     public $table = 'user';
     public $primary = 'id';
     public $timestamps = true;
