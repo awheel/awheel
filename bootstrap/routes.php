@@ -9,6 +9,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/index', 'IndexController@index');
+$router->get('/cache', 'IndexController@cache');
 
 $router->group(['prefix' => 'view'], function () use ($router) {
     $router->get('/single', 'ViewController@single');
