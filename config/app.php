@@ -2,7 +2,7 @@
 
 return [
     // 项目名称
-    'name' => 'awheel',
+    'name' => 'Awheel',
 
     // 项目地址
     'base_url' => 'http://localhost',
@@ -19,6 +19,7 @@ return [
     // 启用组件
     'component' => [
         'awheel\ViewBlade\ViewComponent',
-        'awheel\CacheComponent\CacheComponent'
+        'awheel\CacheComponent\CacheComponent',
+        'awheel\ViewSingle\ViewComponent',
     ]
 ];

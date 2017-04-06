@@ -5,16 +5,19 @@ namespace app\Controller;
 use awheel\Routing\Controller;
 
 /**
- * Home Controller
+ * IndexController
  *
  * @package app\Controller
  */
 class IndexController extends Controller
 {
-
-    public function home()
+    /**
+     * Index
+     *
+     * @return array
+     */
+    public function index()
     {
-        return app('view.blade')->render('home', ['title' => time()]);
+        return [__CLASS__, __FUNCTION__];
     }
-
 }

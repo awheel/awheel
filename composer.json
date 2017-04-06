@@ -1,8 +1,8 @@
 {
     "name": "awheel/awheel",
     "description": "Awheel framework",
-    "type": "project",
     "license": "MIT",
+    "homepage": "http://awheel.com",
     "authors": [
         {
             "name": "fengqi",
@@ -15,7 +15,8 @@
         "awheel/medoo-model": "dev-master",
         "awheel/cache-component": "dev-master",
         "awheel/view-blade": "dev-master",
-        "awheel/support": "dev-master"
+        "awheel/support": "dev-master",
+        "awheel/view-single": "^0.1.0"
     },
     "autoload": {
         "psr-4": {
@@ -27,5 +28,10 @@
         "prefer-source": false,
         "prefer-dist": true,
         "secure-http": false
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.5-dev"
+        }
     }
 }
