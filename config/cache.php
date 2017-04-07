@@ -4,7 +4,7 @@ return [
     // 驱动
     'driver' => 'redis',
 
-    // 过去时间
+    // 过期时间
     'timeout' => 120,
 
     // 前缀

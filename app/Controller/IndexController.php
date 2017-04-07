@@ -2,6 +2,7 @@
 
 namespace app\Controller;
 
+use library\RedisLock;
 use awheel\Routing\Controller;
 
 /**
@@ -29,8 +30,14 @@ class IndexController extends Controller
     public function cache()
     {
         $key = 'cache_test';
-        $set = app('cache')->set($key, time(), 10);
         $get = app('cache')->get($key);
+        $set = false;
+
+        if (!$get && RedisLock::lock($key)) {
+            $set = app('cache')->set($key, time(), 5);
+
+            RedisLock::unlock($key);
+        }
 
         return [$key, $set, $get];
     }
