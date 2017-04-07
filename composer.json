@@ -11,12 +11,13 @@
     ],
     "minimum-stability": "stable",
     "require": {
+        "php": ">=5.4.0",
         "awheel/framework": "dev-master",
         "awheel/medoo-model": "dev-master",
-        "awheel/cache-component": "^1.5",
-        "awheel/view-blade": "^1.5",
+        "awheel/cache-component": "dev-master",
+        "awheel/view-blade": "dev-master",
         "awheel/support": "dev-master",
-        "awheel/view-single": "^0.1.0"
+        "awheel/view-single": "dev-master"
     },
     "autoload": {
         "psr-4": {
