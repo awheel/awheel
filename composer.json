@@ -12,7 +12,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
-        "awheel/framework": "^1.5",
+        "awheel/framework": "1.5.*",
         "awheel/medoo-model": "^1.5",
         "awheel/cache-component": "^1.5",
         "awheel/view-blade": "^1.5",
@@ -22,16 +22,6 @@
         "psr-4": {
             "app\\": "app/",
             "library\\": "library/"
-        }
-    },
-    "config": {
-        "prefer-source": false,
-        "prefer-dist": true,
-        "secure-http": false
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.5-dev"
         }
     }
 }
