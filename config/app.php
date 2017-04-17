@@ -9,6 +9,9 @@ return [
     // 项目地址
     'base_url' => 'http://localhost',
 
+    // 时区
+    'timezone' => 'Asia/Shanghai',
+
     // 开发/调试模式
     'debug' => false,
 
