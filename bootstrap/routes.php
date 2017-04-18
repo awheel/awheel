@@ -1,8 +1,6 @@
 <?php
 
-use awheel\Routing\Router;
-
-$router = new Router();
+$router = new awheel\Routing\Router();
 
 $router->get('/', function () use ($router) {
     return app()->configGet('app.name');
