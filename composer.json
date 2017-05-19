@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
-        "awheel/framework": "1.5.*",
+        "php": ">=7.0.0",
+        "awheel/framework": "v2.0.x-dev",
         "awheel/medoo-model": "^1.5",
         "awheel/cache-component": "^1.5",
         "awheel/view-blade": "^1.5",
