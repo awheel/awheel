@@ -18,10 +18,10 @@ return [
     // 直接指定日志处理方式
     'log_handler' => new ErrorLogHandler(ErrorLogHandler::OPERATING_SYSTEM, 'ERROR'),
 
-    // 启用组件
-    'component' => [
-        'awheel\ViewBlade\ViewComponent',
-        'awheel\CacheComponent\CacheComponent',
-        'awheel\ViewSingle\ViewComponent',
+    // 类别名
+    'aliases' => [
+        'router' => awheel\Routing\Router::class,
+        'request' => awheel\Http\Request::class,
+        'response' => awheel\Http\Response::class,
     ]
 ];

@@ -1,6 +1,6 @@
 <?php
 
-$router = new awheel\Routing\Router();
+$router = awheel\App::make(awheel\Routing\Router::class);
 
 $router->get('/', function () use ($router) {
     return app()->configGet('app.name');
@@ -13,3 +13,5 @@ $router->group(['prefix' => 'view'], function () use ($router) {
     $router->get('/single', 'ViewController@single');
     $router->get('/blade', 'ViewController@blade');
 });
+
+return $router;

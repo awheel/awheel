@@ -14,11 +14,11 @@ class Example
 {
     public function handle(Request $request, Closure $next)
     {
-        // todo before
+        // pre-operation
 
         $response = $next($request);
 
-        // todo after
+        //post-operation
 
         return $response;
     }

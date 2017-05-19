@@ -2,6 +2,6 @@
 
 // 注册命令行
 return [
-    'app\Command\Example',
-    'app\Command\Environment',
+    app\Command\Example::class,
+    app\Command\Environment::class,
 ];
